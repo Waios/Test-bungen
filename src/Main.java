@@ -154,17 +154,17 @@ public class Main {
 
         List<FussballSpieler> fussballSpielerList = new ArrayList<>();
 
-        fussballSpielerList.add(new FussballSpieler("FC Bayern München", "Franck", "Ribery", 10000000, "linkes Mittelfeld", 7));
+        fussballSpielerList.add(new FussballSpieler("FC Bayern München", "Franck", "Ribery", 9000000, "linkes Mittelfeld", 7));
         fussballSpielerList.add(new FussballSpieler("Barcelona", "Lionel", "Messi", 40000000, "Sturm", 10));
         fussballSpielerList.add(new FussballSpieler("Real Madrid", "Cristiano", "Ronaldo", 30000000, "Sturm", 7));
-        fussballSpielerList.add(new FussballSpieler("FC Bayern München", "Arjen", "Robben", 8000000, "rechtes Mittelfeld", 10));
+        fussballSpielerList.add(new FussballSpieler("FC Bayern München", "Arjen", "Robben", 10000000, "rechtes Mittelfeld", 10));
         fussballSpielerList.add(new FussballSpieler("Paris St.Germain ", "Junior", "Neymar", 25000000, "Sturm", 10));
         fussballSpielerList.add(new FussballSpieler("Vfb Stuttgart", "Timo", "Baumgartl", 1500000, "Abwehr", 5));
         fussballSpielerList.add(new FussballSpieler("Borussia Dortmund", "Mario", "Götze", 9000000, "offensives Mittelfeld", 10));
         fussballSpielerList.add(new FussballSpieler("Olympiakos Piräus", "Konstantinos", "Fortounis", 1700000, "offensives Mittelfeld", 7));
         fussballSpielerList.add(new FussballSpieler("Chelsea London", "Eden", "Hazard", 12000000, "linkes Mittelfeld", 10));
         fussballSpielerList.add(new FussballSpieler("Arsenal London", "Mesut", "Özil", 15000000, "offensives Mittelfeld", 11));
-        fussballSpielerList.add(new FussballSpieler("Barcelona", "Gerard", "Pique", 9000000, "Abwehr", 5));
+        fussballSpielerList.add(new FussballSpieler("Barcelona", "Gerard", "Pique", 7000000, "Abwehr", 5));
         fussballSpielerList.add(new FussballSpieler("Real Madrid", "Sergio", "Ramos", 11000000, "Abwehr", 4));
         fussballSpielerList.add(new FussballSpieler("Hamburger SV", "Aaron", "Hunt", 3000000, "offensives Mittelfeld", 14));
 

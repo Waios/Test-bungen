@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0cc41c0-9771-4d8c-ab54-39b9300fa9f3" name="Default" comment="" />
+    <list default="true" id="e0cc41c0-9771-4d8c-ab54-39b9300fa9f3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestUebungen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/CSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielCSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielerCSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/VereinCSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/domain/Spiel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/domain/Spieler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/domain/Verein.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bundesliga_Spiel.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bundesliga_Spieler.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bundesliga_Verein.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/CSVReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielCSVReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielerCSVReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/VereinCSVReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/SpielTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/SpielerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/VereinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/bundesliga_Spiel_Test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/bundesliga_Spieler_Test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/bundesliga_Verein_Test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestÜbungen.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestÜbungen/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestÜbungen/ForEach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestÜbungen/ForEachList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestÜbungen/ForEachList1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestÜbungen/FussballSpieler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestÜbungen/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestÜbungen/Pokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="SpielerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/SpielerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="172" selection-start-line="172" selection-end-line="172" selection-end-column="94" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,41 +60,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pokemon.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Pokemon.java">
+      <file leaf-file-name="CSVReaderTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/CSVReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#1014#1023#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comparable.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/latest/src.zip!/java/lang/Comparable.java">
+      <file leaf-file-name="CSVReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/CSVReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="135" column="26" lean-forward="true" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FussballSpieler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FussballSpieler.java">
+      <file leaf-file-name="SpielCSVReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielCSVReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="34">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -75,14 +105,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SpielerCSVReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielerCSVReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VereinCSVReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/VereinCSVReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,9 +143,29 @@
         <option value="$PROJECT_DIR$/src/ForEachList1.java" />
         <option value="$PROJECT_DIR$/src/ForEachList.java" />
         <option value="$PROJECT_DIR$/src/FussballSpieler.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Dog.java" />
         <option value="$PROJECT_DIR$/src/Pokemon.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/de/merit/eval/azubi/liga/analyzer/Verein.java" />
+        <option value="$PROJECT_DIR$/src/de/merit/eval/azubi/liga/analyzer/Spieler.java" />
+        <option value="$PROJECT_DIR$/src/de/merit/eval/azubi/liga/analyzer/Spiel.java" />
+        <option value="$PROJECT_DIR$/src/de/merit/eval/azubi/liga/analyzer/domain/Spiel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Verein.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/SpielTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/VereinTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/domain/SpielerCSVReader.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/bundesliga_Spiel_Test.csv" />
+        <option value="$PROJECT_DIR$/src/test/resources/bundesliga_Spieler_Test.csv" />
+        <option value="$PROJECT_DIR$/src/test/resources/bundesliga_Verein_Test.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielerCSVReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/VereinCSVReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/VereinCSVReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielerCSVReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielCSVReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielCSVReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/SpielerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/CSVReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/CSVReader.java" />
       </list>
     </option>
   </component>
@@ -104,16 +176,18 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="54" />
-    <option name="width" value="1033" />
-    <option name="height" value="939" />
+    <option name="x" value="32" />
+    <option name="y" value="34" />
+    <option name="width" value="1032" />
+    <option name="height" value="959" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,16 +200,119 @@
               <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ligaAnalyzer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ligaAnalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="csvInput" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ligaAnalyzer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ligaAnalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="csvInput" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ligaAnalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PanzerHQ" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.merit.eval.azubi.ligaAnalyzer.csvInput" />
+      <recent name="de.merit.eval.azubi.ligaAnalyzer.domain" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.merit.eval.azubi.ligaAnalyzer.csvInput" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,29 +326,121 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Example">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example" />
-      <module name="TestÜbungen" />
+  <component name="RunManager" selected="JUnit.CSVReaderTest">
+    <configuration name="CSVReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestUebungen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.merit.eval.azubi.ligaAnalyzer.csvInput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="de.merit.eval.azubi.ligaAnalyzer.csvInput" />
+      <option name="MAIN_CLASS_NAME" value="de.merit.eval.azubi.ligaAnalyzer.csvInput.CSVReaderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ForEach" />
-      <module name="TestÜbungen" />
+    <configuration name="CSVReaderTest.csvReaderReadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestUebungen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.merit.eval.azubi.ligaAnalyzer.csvInput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="de.merit.eval.azubi.ligaAnalyzer.csvInput" />
+      <option name="MAIN_CLASS_NAME" value="de.merit.eval.azubi.ligaAnalyzer.csvInput.CSVReaderTest" />
+      <option name="METHOD_NAME" value="csvReaderReadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="ForEachList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ForEachList" />
-      <module name="TestÜbungen" />
+    <configuration name="CSVReaderTest.csvReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestUebungen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.merit.eval.azubi.ligaAnalyzer.csvInput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="de.merit.eval.azubi.ligaAnalyzer.csvInput" />
+      <option name="MAIN_CLASS_NAME" value="de.merit.eval.azubi.ligaAnalyzer.csvInput.CSVReaderTest" />
+      <option name="METHOD_NAME" value="csvReaderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="ForEachList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ForEachList1" />
-      <module name="TestÜbungen" />
+    <configuration name="SpielerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestUebungen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.merit.eval.azubi.ligaAnalyzer.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="de.merit.eval.azubi.ligaAnalyzer.domain" />
+      <option name="MAIN_CLASS_NAME" value="de.merit.eval.azubi.ligaAnalyzer.domain.SpielerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="TestÜbungen" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration name="de.merit.eval.azubi.ligaAnalyzer.domain in TestÜbungen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestUebungen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.merit.eval.azubi.ligaAnalyzer.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="de.merit.eval.azubi.ligaAnalyzer.domain" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -189,19 +458,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ForEach" />
-      <item itemvalue="Application.ForEachList" />
-      <item itemvalue="Application.ForEachList1" />
-      <item itemvalue="Application.Example" />
+      <item itemvalue="JUnit.de.merit.eval.azubi.ligaAnalyzer.domain in TestÜbungen" />
+      <item itemvalue="JUnit.CSVReaderTest" />
+      <item itemvalue="JUnit.CSVReaderTest.csvReaderTest" />
+      <item itemvalue="JUnit.CSVReaderTest.csvReaderReadTest" />
+      <item itemvalue="JUnit.SpielerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ForEachList1" />
-        <item itemvalue="Application.ForEachList" />
-        <item itemvalue="Application.ForEach" />
+        <item itemvalue="JUnit.CSVReaderTest" />
+        <item itemvalue="JUnit.SpielerTest" />
+        <item itemvalue="JUnit.CSVReaderTest.csvReaderReadTest" />
+        <item itemvalue="JUnit.CSVReaderTest.csvReaderTest" />
+        <item itemvalue="JUnit.de.merit.eval.azubi.ligaAnalyzer.domain in TestÜbungen" />
       </list>
     </recent_temporary>
   </component>
@@ -214,33 +483,67 @@
       <updated>1523428458237</updated>
       <workItem from="1523428461339" duration="18328000" />
       <workItem from="1523451881910" duration="36000" />
-      <workItem from="1523451927220" duration="2869000" />
+      <workItem from="1523451927220" duration="4000000" />
+      <workItem from="1523511603919" duration="66000" />
+      <workItem from="1523513540261" duration="19241000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CSVReaderTest_csvReaderReadTest - 2018.04.12 at 13h 08m 08s.xml">
+      <configuration name="CSVReaderTest.csvReaderReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderTest_csvReaderReadTest - 2018.04.12 at 13h 08m 53s.xml">
+      <configuration name="CSVReaderTest.csvReaderReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderTest_csvReaderReadTest - 2018.04.12 at 13h 09m 57s.xml">
+      <configuration name="CSVReaderTest.csvReaderReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderTest_csvReaderReadTest - 2018.04.12 at 13h 15m 18s.xml">
+      <configuration name="CSVReaderTest.csvReaderReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderTest_csvReaderReadTest - 2018.04.12 at 13h 18m 21s.xml">
+      <configuration name="CSVReaderTest.csvReaderReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderTest_csvReaderReadTest - 2018.04.12 at 13h 22m 44s.xml">
+      <configuration name="CSVReaderTest.csvReaderReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderTest_csvReaderReadTest - 2018.04.12 at 14h 10m 36s.xml">
+      <configuration name="CSVReaderTest.csvReaderReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderTest_csvReaderReadTest - 2018.04.12 at 14h 11m 42s.xml">
+      <configuration name="CSVReaderTest.csvReaderReadTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpielerTest - 2018.04.12 at 15h 02m 44s.xml">
+      <configuration name="SpielerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSVReaderTest - 2018.04.12 at 15h 02m 46s.xml">
+      <configuration name="CSVReaderTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21233000" />
+    <option name="totallyTimeSpent" value="41671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="54" width="1703" height="939" extended-state="0" />
+    <frame x="32" y="34" width="1032" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32962963" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3728395" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850242" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28864735" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16435045" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23678862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -261,6 +564,94 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2890">
+          <caret line="170" column="85" lean-forward="true" selection-start-line="170" selection-start-column="85" selection-end-line="170" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/latest/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="135" column="26" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FussballSpieler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForEach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2890">
+          <caret line="172" selection-start-line="172" selection-end-line="172" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/latest/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="135" column="26" lean-forward="true" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FussballSpieler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForEach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2584">
@@ -340,9 +731,167 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/latest/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="135" column="26" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestUebungen.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/domain/Spiel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/SpielTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/domain/Verein.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/VereinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/domain/Spieler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/bundesliga_Spieler_Test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/bundesliga_Verein_Test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/VereinCSVReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bundesliga_Verein.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bundesliga_Spieler.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bundesliga_Spiel.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11526">
+          <caret line="678" column="37" lean-forward="true" selection-start-line="678" selection-start-column="37" selection-end-line="678" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielCSVReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielerCSVReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielerCSVReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/VereinCSVReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -363,41 +912,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/java/latest/src.zip!/java/lang/Comparable.java">
+    <entry file="file://$PROJECT_DIR$/src/Pokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="135" column="26" lean-forward="true" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+        <state relative-caret-position="874">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/bundesliga_Spiel_Test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="172" selection-start-line="172" selection-end-line="172" selection-end-column="94" />
+        <state relative-caret-position="2890">
+          <caret line="170" column="85" selection-start-line="170" selection-start-column="85" selection-end-line="170" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pokemon.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/CSVReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#1014#1023#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielCSVReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/CSVReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/SpielerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TestÜbungen</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
