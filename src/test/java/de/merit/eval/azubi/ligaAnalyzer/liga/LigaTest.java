@@ -10,8 +10,8 @@ class LigaTest {
     void ligaAlphabetisch() {
 
         Liga theLiga = new Liga();
-       String text = theLiga.ligaAlphabetisch(1);
-       assertTrue(text.contains("1 Liga"));
+        String text = theLiga.ligaAlphabetisch(1);
+        assertTrue(text.contains("1 Liga"));
         System.out.println(text);
 
     }

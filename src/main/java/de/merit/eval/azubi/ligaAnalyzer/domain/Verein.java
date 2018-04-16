@@ -25,5 +25,4 @@ public class Verein {
     public int getLiga(){
         return liga;
     }
-
 }
