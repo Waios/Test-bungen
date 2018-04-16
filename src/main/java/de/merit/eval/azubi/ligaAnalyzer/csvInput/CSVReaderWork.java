@@ -1,32 +1,28 @@
 package de.merit.eval.azubi.ligaAnalyzer.csvInput;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
-public class CSVReader {
+public class CSVReaderWork {
 
+    public static void main(String[] args) {
 
-    public static List<String[]> read(String csvFile) {
-
+        String csvFile = "/home/mruppert/develop/merit-eval/azubi/TestÜbungen/src/main/resources/bundesliga_Verein.csv";
         BufferedReader br = null;
-        List<String[]> resultList = new ArrayList();
         String line = "";
-        String cvsSplitBy = ";";
+        String cvsSplitBy = ",";
 
         try {
 
             br = new BufferedReader(new FileReader(csvFile));
             while ((line = br.readLine()) != null) {
 
-                // use semicolon as separator
-                String[] words = line.split(cvsSplitBy);
-                resultList.add(words);
+                // use comma as separator
+                String[] country = line.split(cvsSplitBy);
+
+                System.out.println("Verein " + country[0]);
 
             }
 
@@ -43,7 +39,7 @@ public class CSVReader {
                 }
             }
         }
-        return resultList;
 
     }
+
 }

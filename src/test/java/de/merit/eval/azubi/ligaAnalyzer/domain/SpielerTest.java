@@ -9,11 +9,11 @@ class SpielerTest {
     @Test
     public void spielerTest() {
 
-
         Spieler testSpieler = new Spieler(1, 3, 10, "Robben", "Niederlande", 17, 5 , 3);
         assertNotNull(testSpieler);
         assertEquals(1, testSpieler.getSpielerId());
         assertEquals("Robben", testSpieler.getSpielerName());
 
-        }
+
+    }
 }
