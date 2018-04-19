@@ -2,6 +2,7 @@ package de.merit.eval.azubi.ligaAnalyzer.domain;
 
 public class Verein {
 
+    public boolean contains;
     private int vereinsId;
     private String name;
     private int liga;
@@ -24,5 +25,9 @@ public class Verein {
 
     public int getLiga(){
         return liga;
+    }
+
+    public boolean contains(String s) {
+        return true;
     }
 }

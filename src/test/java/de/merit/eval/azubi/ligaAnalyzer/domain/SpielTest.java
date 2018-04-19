@@ -10,7 +10,7 @@ class SpielTest {
     @Test
     public void spielTest() {
 
-        Spiel testSpiel = new Spiel(1,5,"12.12.12", "20:30", 2,3,2,1);
+        Spiel testSpiel = new Spiel(1,17,"12.12.12", "20:30", 2,3,2,1);
         assertNotNull(testSpiel);
         assertEquals("12.12.12", testSpiel.getDatum());
     }
