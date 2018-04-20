@@ -4,7 +4,6 @@ import de.merit.eval.azubi.ligaAnalyzer.csvInput.SpielCSVReader;
 import de.merit.eval.azubi.ligaAnalyzer.csvInput.VereinCSVReader;
 import de.merit.eval.azubi.ligaAnalyzer.domain.Spiel;
 import de.merit.eval.azubi.ligaAnalyzer.domain.Verein;
-import javafx.util.Pair;
 
 import java.security.InvalidParameterException;
 import java.util.ArrayList;
@@ -102,40 +101,51 @@ public class SpielBegegnung {
     }
 
 
-    public Pair<String, Integer>[] alleToreProVereinInLiga(int liga) {
+    public String[][] alleToreProVereinInLiga(int liga) {
 
-        int[][] allVereine = new int[18][2];
+        int[][] allErgebnisse = new int[18][2];
 
         int x = 0;
 
         for (Verein currentVerein : vereineReader.loadVereine()) {
             if (currentVerein.getLiga() == liga) {
 
-                allVereine[x++][0] = (currentVerein.getVereinsId());
+                allErgebnisse[x++][0] = (currentVerein.getVereinsId());
             }
         }
 
 
-        for (int y = 0; y < allVereine.length; y++) {
+        for (int y = 0; y < allErgebnisse.length; y++) {
 
 
             int alleTore = 0;
 
             for (Spiel aktuellesSpiel : spielReader.loadSpiele()) {
-                if (aktuellesSpiel.getHeim() == allVereine[y][0]) {
+                if (aktuellesSpiel.getHeim() == allErgebnisse[y][0]) {
                     alleTore = alleTore + aktuellesSpiel.getHeimTore();
 
-                } else if (aktuellesSpiel.getGast() == allVereine[y][0]) {
+                } else if (aktuellesSpiel.getGast() == allErgebnisse[y][0]) {
                     alleTore = alleTore + aktuellesSpiel.getGastTore();
                 }
             }
-            allVereine[y][1] = alleTore;
+            allErgebnisse[y][1] = alleTore;
         }
 
 
-        Pair<String, Integer>[] allErgebnisse = new Pair[18];
-        // hier werden dann die ids durch die Namen ersetzt.
+        //
+        String[][] allToreProMannschaft = new String[18][2];
+        for (int z = 0; z < allErgebnisse.length; z++) {
 
-        return allErgebnisse;
+            for (Verein currentVerein : vereineReader.loadVereine())
+                if (currentVerein.getVereinsId() == allErgebnisse[z][0]) {
+                    allToreProMannschaft[z][0] = (currentVerein.getName());
+                    allToreProMannschaft[z][1] = (Integer.toString(allErgebnisse[z][1]));
+
+                }
+        }
+
+
+        return allToreProMannschaft;
     }
+
 }

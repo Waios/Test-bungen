@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0cc41c0-9771-4d8c-ab54-39b9300fa9f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnungTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mruppert.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielerCSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielerCSVReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/domain/Verein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/domain/Verein.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpieleBegegnung.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/SpielTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/domain/SpielTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpieleBegegnungTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnungTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnungTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +23,8 @@
       <file leaf-file-name="SpielBegegnung.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnung.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1519">
-              <caret line="130" column="13" lean-forward="true" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+            <state relative-caret-position="756">
+              <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +32,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="170" column="85" selection-start-line="170" selection-start-column="85" selection-end-line="170" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FussballSpieler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FussballSpieler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="bundesliga_Verein.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/bundesliga_Verein.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="15">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -48,8 +62,8 @@
       <file leaf-file-name="bundesliga_Spiel.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/bundesliga_Spiel.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            <state>
+              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -57,8 +71,8 @@
       <file leaf-file-name="SpielBegegnungTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnungTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="347">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +133,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/bundesliga_Spiel.csv" />
         <option value="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpieleBegegnung.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpieleBegegnungTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnung.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnungTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnung.java" />
       </list>
     </option>
   </component>
@@ -134,10 +148,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="410" />
-    <option name="y" value="153" />
-    <option name="width" value="2333" />
-    <option name="height" value="1893" />
+    <option name="x" value="1100" />
+    <option name="y" value="55" />
+    <option name="width" value="1347" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -211,15 +226,6 @@
               <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ligaAnalyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="versuche" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,18 +276,10 @@
               <item name="ligaAnalyzer" type="462c0819:PsiDirectoryNode" />
               <item name="liga" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TestÜbungen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestÜbungen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,7 +297,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -336,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpielBegegnungTest.begegnungsTest">
+  <component name="RunManager" selected="JUnit.SpielBegegnungTest.alleToreDerVereineInLiga">
     <configuration name="SpielBegegnungTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestUebungen" />
       <extension name="coverage">
@@ -476,11 +474,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpielBegegnungTest.alleToreDerVereineInLiga" />
         <item itemvalue="JUnit.SpielBegegnungTest.begegnungsTest" />
         <item itemvalue="JUnit.SpielBegegnungTest.auswaertsSpielToreTest" />
         <item itemvalue="JUnit.SpielBegegnungTest.heimSpielToreTest" />
         <item itemvalue="JUnit.SpielBegegnungTest" />
-        <item itemvalue="JUnit.SpielBegegnungTest.alleToreDerVereineInLiga" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +498,8 @@
       <workItem from="1523684063800" duration="889000" />
       <workItem from="1523859264078" duration="2824000" />
       <workItem from="1523862691409" duration="20514000" />
-      <workItem from="1524116896316" duration="22996000" />
+      <workItem from="1524116896316" duration="23889000" />
+      <workItem from="1524204130547" duration="9727000" />
     </task>
     <task id="LOCAL-00001" summary="ReaderKlassen implentiert">
       <created>1523538679660</created>
@@ -523,83 +522,100 @@
       <option name="project" value="LOCAL" />
       <updated>1523886986301</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ligaspiele eines Vereins">
+      <created>1524144973281</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524144973281</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpielBegegnungTest - 2018.04.19 at 14h 40m 30s.xml">
-      <configuration name="SpielBegegnungTest" configurationId="JUnit" />
+    <history-entry file="SpielBegegnungTest_alleToreDerVereineInLiga - 2018.04.19 at 15h 36m 24s.xml">
+      <configuration name="SpielBegegnungTest.alleToreDerVereineInLiga" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpielBegegnungTest - 2018.04.19 at 14h 41m 01s.xml">
-      <configuration name="SpielBegegnungTest" configurationId="JUnit" />
+    <history-entry file="SpielBegegnungTest_alleToreDerVereineInLiga - 2018.04.19 at 15h 50m 07s.xml">
+      <configuration name="SpielBegegnungTest.alleToreDerVereineInLiga" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpielBegegnungTest - 2018.04.19 at 14h 41m 14s.xml">
-      <configuration name="SpielBegegnungTest" configurationId="JUnit" />
+    <history-entry file="SpielBegegnungTest_alleToreDerVereineInLiga - 2018.04.20 at 08h 15m 07s.xml">
+      <configuration name="SpielBegegnungTest.alleToreDerVereineInLiga" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpielBegegnungTest_auswaertsSpielToreTest - 2018.04.19 at 14h 41m 20s.xml">
-      <configuration name="SpielBegegnungTest.auswaertsSpielToreTest" configurationId="JUnit" />
+    <history-entry file="SpielBegegnungTest_alleToreDerVereineInLiga - 2018.04.20 at 09h 30m 27s.xml">
+      <configuration name="SpielBegegnungTest.alleToreDerVereineInLiga" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpielBegegnungTest_heimSpielToreTest - 2018.04.19 at 14h 41m 28s.xml">
-      <configuration name="SpielBegegnungTest.heimSpielToreTest" configurationId="JUnit" />
+    <history-entry file="SpielBegegnungTest_alleToreDerVereineInLiga - 2018.04.20 at 09h 48m 38s.xml">
+      <configuration name="SpielBegegnungTest.alleToreDerVereineInLiga" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpielBegegnungTest_auswaertsSpielToreTest - 2018.04.19 at 14h 41m 47s.xml">
-      <configuration name="SpielBegegnungTest.auswaertsSpielToreTest" configurationId="JUnit" />
+    <history-entry file="SpielBegegnungTest_alleToreDerVereineInLiga - 2018.04.20 at 09h 58m 02s.xml">
+      <configuration name="SpielBegegnungTest.alleToreDerVereineInLiga" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpielBegegnungTest_auswaertsSpielToreTest - 2018.04.19 at 14h 42m 04s.xml">
-      <configuration name="SpielBegegnungTest.auswaertsSpielToreTest" configurationId="JUnit" />
+    <history-entry file="SpielBegegnungTest_alleToreDerVereineInLiga - 2018.04.20 at 09h 59m 12s.xml">
+      <configuration name="SpielBegegnungTest.alleToreDerVereineInLiga" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpielBegegnungTest_begegnungsTest - 2018.04.19 at 14h 42m 19s.xml">
-      <configuration name="SpielBegegnungTest.begegnungsTest" configurationId="JUnit" />
+    <history-entry file="SpielBegegnungTest_alleToreDerVereineInLiga - 2018.04.20 at 10h 06m 07s.xml">
+      <configuration name="SpielBegegnungTest.alleToreDerVereineInLiga" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpielBegegnungTest_begegnungsTest - 2018.04.19 at 14h 42m 35s.xml">
-      <configuration name="SpielBegegnungTest.begegnungsTest" configurationId="JUnit" />
+    <history-entry file="SpielBegegnungTest_alleToreDerVereineInLiga - 2018.04.20 at 10h 08m 14s.xml">
+      <configuration name="SpielBegegnungTest.alleToreDerVereineInLiga" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpielBegegnungTest_alleToreDerVereineInLiga - 2018.04.19 at 14h 50m 26s.xml">
+    <history-entry file="SpielBegegnungTest_alleToreDerVereineInLiga - 2018.04.20 at 10h 10m 57s.xml">
       <configuration name="SpielBegegnungTest.alleToreDerVereineInLiga" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89198000" />
+    <option name="totallyTimeSpent" value="99818000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="410" y="153" width="2333" height="1893" extended-state="0" />
+    <frame x="1100" y="55" width="1347" height="973" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3279539" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.058194775" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33135393" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50021976" side_tool="true" weight="0.28357348" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997802" weight="0.3279539" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997802" weight="0.30997625" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49810174" visible="true" weight="0.21846154" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49810174" visible="true" weight="0.2467232" />
       <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
       <window_info id="Structure" order="1" sideWeight="0.5018982" side_tool="true" weight="0.22040816" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="3" sideWeight="0.5022091" side_tool="true" weight="0.22040816" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27838618" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.11401425" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997802" weight="0.3279539" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49810174" visible="true" weight="0.21846154" />
       <window_info id="Structure" order="1" sideWeight="0.5018982" side_tool="true" weight="0.22040816" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997802" weight="0.3279539" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="4" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27838618" />
@@ -607,8 +623,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50021976" side_tool="true" weight="0.28357348" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3279539" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="3" sideWeight="0.5022091" side_tool="true" weight="0.22040816" />
@@ -623,21 +639,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ReaderKlassen implentiert" />
     <MESSAGE value="Readertests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readertests" />
+    <MESSAGE value="Ligaspiele eines Vereins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ligaspiele eines Vereins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="37" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ForEach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2890">
@@ -729,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/versuche/country/csv.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/country.csv">
       <provider selected="true" editor-type-id="text-editor">
@@ -762,9 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="118" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="118" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,13 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FussballSpieler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -833,9 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="152" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,20 +843,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="170" column="85" selection-start-line="170" selection-start-column="85" selection-end-line="170" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/csvInput/SpielCSVReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,9 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57">
           <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,9 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -915,9 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,9 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,9 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,9 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,9 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,8 +950,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bundesliga_Spiel.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        <state>
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1003,27 +962,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FussballSpieler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bundesliga_Verein.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/latest/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="170" column="85" selection-start-line="170" selection-start-column="85" selection-end-line="170" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnungTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="347">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bundesliga_Verein.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/merit/eval/azubi/ligaAnalyzer/liga/SpielBegegnung.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1519">
-          <caret line="130" column="13" lean-forward="true" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        <state relative-caret-position="756">
+          <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

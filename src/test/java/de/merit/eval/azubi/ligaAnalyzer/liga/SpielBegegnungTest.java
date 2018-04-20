@@ -53,7 +53,7 @@ class SpielBegegnungTest {
     void alleToreDerVereineInLiga() {
 
         SpielBegegnung theSpiele = new SpielBegegnung();
-        Pair<String,Integer>[]  alleToreListeSortiert = theSpiele.alleToreProVereinInLiga(1);
+        String [][] alleToreListeSortiert = theSpiele.alleToreProVereinInLiga(1);
         assertNotNull(alleToreListeSortiert);
         //Pair<String, Integer>[] alleTore = theSpiele.alleToreProVereinInLiga(1);
         //assertEquals(76, theSpiele.alleToreProVereinInLiga(1));
